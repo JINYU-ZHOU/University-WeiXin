@@ -1,14 +1,45 @@
 {
   "pages": [
+   
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/mysclool/mysclool",  
+    "pages/logs/logs",
+    "pages/publish/publish"
+
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": " ",
     "navigationBarTextStyle": "black"
   },
+  "tabBar": {
+    "color": "black",
+    "selectedColor": "#754775",
+    "borderStyle": "black",
+    "list": [
+      {
+        "selectedIconPath": "images/首页.png",
+        "iconPath": "images/首页1.png",
+        "pagePath": "pages/mysclool/mysclool",
+        "text": "发现"
+      },
+        {
+          "selectedIconPath": "images/增加2.png",
+          "iconPath": "images/增加.png",
+          "pagePath": "pages/publish/publish",
+          "text": "发表"
+        },
+      {
+        "selectedIconPath": "images/user.png",
+        "iconPath": "images/user1.png",
+        "pagePath": "pages/index/index",
+        "text": "我的"
+      }
+    
+    ]
+  },
+  
   "style": "v2",
   "sitemapLocation": "sitemap.json"
 }
