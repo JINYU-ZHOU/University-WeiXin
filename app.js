@@ -10,6 +10,20 @@ App({
     wx.login({
       success: res => {
         // 发送 res.code 到后台换取 openId, sessionKey, unionId
+        wx.request({
+          url: 'https://spergol.com/login',
+
+          data: {
+            code: res.code,
+            appid:'wxa1b202ae01b354d3',
+            secret:'c018bc3857e272854e69796662a92d4d',
+            username:'zhangsan'
+          },
+          method: 'GET',
+          success: (res) => {
+            console.log(res.data)
+          }
+        })
       }
     })
     // 获取用户信息
