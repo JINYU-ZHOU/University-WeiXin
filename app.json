@@ -2,15 +2,10 @@
   "pages": [
    
     "pages/index/index",
-<<<<<<< HEAD
     "pages/mysclool/mysclool",  
     "pages/logs/logs",
     "pages/publish/publish"
 
-=======
-    "pages/logs/logs",
-    "pages/test/test"
->>>>>>> 20291bd5291df0e6aeb4ba0a25152bdd3fab0e9f
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -18,7 +13,6 @@
     "navigationBarTitleText": " ",
     "navigationBarTextStyle": "black"
   },
-<<<<<<< HEAD
   "tabBar": {
     "color": "black",
     "selectedColor": "#754775",
@@ -46,7 +40,6 @@
     ]
   },
   
-=======
   "permission": {
     "scope.userLocation": {
       "desc": "你的位置信息将用于小程序定位"
@@ -60,7 +53,6 @@
     }
   },
  
->>>>>>> 20291bd5291df0e6aeb4ba0a25152bdd3fab0e9f
   "style": "v2",
   "sitemapLocation": "sitemap.json"
 }
