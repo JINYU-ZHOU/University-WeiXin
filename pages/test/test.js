@@ -7,9 +7,10 @@ const location = JSON.stringify({
 });
 const category = '生活服务,娱乐休闲';
 
-wx.navigateTo({
-  url: 'plugin://chooseLocation/index?key=' + key + '&referer=' + referer + '&location=' + location + '&category=' + category
-});
+// wx.navigateTo({
+//   url: 'plugin://chooseLocation/index?key=' + key + '&referer=' + referer + '&location=' + location + '&category=' + category
+// });
+
 Page({
  
 })

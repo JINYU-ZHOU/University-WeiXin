@@ -1,17 +1,55 @@
 // pages/mysclool/myscool.js
 Page({
+  data: {
+    palce: "",
+    palce_list: [
+      {
+        name: "图书馆",
+      },
+      {
+        name: "大不同超市",
+      }, 
+      {
+        name: "财务处",
+      },
+      {
+        name: "校园卡管理中心",
+      },
+      {
+        name: "计算机学院",
+      },
+      {
+        name: "勤学楼",
+      },
+
+    ],
+  },
 
   /**
    * 页面的初始数据
    */
-  data: {
+
+  palce_set: function (res) {
+
+    console.log("====对象======", res)
+
+    this.setData({
+
+      palce: res.detail.value
+
+    })
+
+    console.log("====palce==", this.data.palce)
 
   },
+ 
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    
+    
 
   },
 
